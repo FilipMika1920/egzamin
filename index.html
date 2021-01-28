@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Szkoła ponadgimnazjalna</title>
+  </head>
+  <body class="flex">
+    <header>
+      <h1>Projekt strony internetowej szkoły ponadgimazjalnej</h1>
+    </header>
+    <div class="wrapper flex">
+      <div id="lewo">
+        <h3>Do pobrania</h3>
+        <ul>
+          <li><a href="">zapytania SQL</a></li>
+          <li><a href="">baza danych</a></li>
+        </ul>
+      </div>
+      <div id="srodek">
+        <table>
+          <tr>
+            <th>Treść zapytania</th>
+            <th>Zrzut ekranu</th>
+          </tr>
+          <tr>
+            <td>Treść zapytania</td>
+            <td>Kwerenda</td>
+          </tr>
+          <tr>
+            <td>Treść zapytania</td>
+            <td>Kwerenda</td>
+          </tr>
+          <tr>
+            <td>Treść zapytania</td>
+            <td>Nowy urzytkownik</td>
+          </tr>
+          <tr>
+            <td>Treść zapytania</td>
+            <td>uprawnienia</td>
+          </tr>
+        </table>
+      </div>
+      <div id="prawa">
+        <h4>Obliczanie średniej ocen</h4>
+        <ul class="avg">
+          <li>
+            <label for="input1">Michał Świerguła</label>
+            <input id="input1" type="text" />
+          </li>
+          <li>
+            <label for="input2">Krystian Gagracz</label>
+            <input id="input2" type="text" />
+          </li>
+          <li>
+            <label for="input3">Filip Mika</label>
+            <input id="input3" type="text" />
+          </li>
+        </ul>
+        <div class="button">
+          <h4 id="output">Średnia ocen:</h4>
+          <button onclick="output()">Oblicz</button>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p id="author">autor strony: Filip Mika</p>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>

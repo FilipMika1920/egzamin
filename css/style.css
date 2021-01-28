@@ -1,0 +1,130 @@
+/* General */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffb31c;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 10px;
+}
+
+/* Helper */
+
+.flex {
+  display: flex;
+}
+
+/* Main */
+
+a {
+  color: brown;
+}
+
+header {
+  height: 60px;
+  text-align: center;
+}
+
+.wrapper {
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#lewo {
+  width: 20%;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#lewo ul {
+  list-style-type: square;
+  width: 100%;
+  height: 20%;
+}
+
+#lew ul li {
+  width: 100%;
+}
+
+#srodek {
+  width: 60%;
+  height: 480px;
+  background-color: #ffcb71;
+  overflow: scroll;
+}
+
+#prawa {
+  width: 20%;
+  height: 480px;
+  text-align: end;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#prawa ul {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+footer {
+  height: 30px;
+  text-align: center;
+}
+
+.avg {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+.avg li{
+  width: 100%;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+input {
+  width: 45%;
+}
+label {
+  width: 45%;
+  text-align: start;
+}
+/* Table */
+
+th,
+td {
+  border: black solid 1px;
+}
+th:nth-of-type(2) {
+  width: 405px;
+}
+tr {
+  height: 300px;
+}
+
+
+#author {
+  font-weight: bold;
+  color: crimson;
+}
